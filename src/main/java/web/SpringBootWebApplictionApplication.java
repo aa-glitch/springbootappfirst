@@ -1,11 +1,11 @@
-package com.example.springboot.web.springbootwebappliction;
+package web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.example.springboot.web.springbootwebappliction.controller")
+@ComponentScan("web")
 public class SpringBootWebApplictionApplication {
 
 	public static void main(String[] args) {
